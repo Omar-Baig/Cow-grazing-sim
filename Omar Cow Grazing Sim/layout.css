@@ -1,0 +1,10 @@
+*{padding:0;margin:0;box-sizing:border-box}
+#grid {width: 700px;height:300px;background: linear-gradient(90deg, #9ebd13 0%, #008552 100%);;border:3px solid #f1f1f1;position:relative}
+#cow{width: 30px;height:30px;background:#000;border-radius:100%;position:absolute;transition:All .4s;color:#fff;padding:3px 1px}
+input{border:1px solid #b1b1b1;height:35px;width:50px;display: inline-block;padding:10px;margin:5px }
+.north{position:absolute;top: -20px;left: 50%;transform: translateX(-50%);}
+.south{position:absolute;bottom: -20px;left: 50%;transform: translateX(-50%);}
+.east{position:absolute;transform: translateY(-50%);top:50%;right:-15px}
+.west{position:absolute;transform: translateY(-50%);top:50%;left:-20px}
+button{border:0;background:none;color:#000;font-weight:700;height:40px;padding:10px 15px;border-bottom:1px solid #000;transition:all .4s}
+button:hover{background:#f3eeee;transition:all .4s;cursor:pointer;}
